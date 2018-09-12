@@ -7,6 +7,9 @@
             <b-tab title="Advanced Usage">
                 <advanced-usage></advanced-usage>
             </b-tab>
+	        <b-tab title="Props Usage">
+				<props-usage></props-usage>
+	        </b-tab>
         </b-tabs>
 
         <div id="demo-notes">
@@ -37,13 +40,15 @@
 <script>
     import BasicUsage from '../tabs/basic-usage';
     import AdvancedUsage from '../tabs/advanced-usage';
+    import PropsUsage from '../tabs/props-usage';
 
     export default {
         name: 'vue-context-demo',
 
         components: {
             BasicUsage,
-            AdvancedUsage
+            AdvancedUsage,
+	        PropsUsage
         },
 
         data () {
