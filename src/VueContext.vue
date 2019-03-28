@@ -18,6 +18,10 @@
     export default {
         name: 'VueContext',
 
+        directives: {
+            ClickOutside,
+        },
+
         props: {
             /**
              * Close the menu on click.
