@@ -1,5 +1,5 @@
 {
-  "name": "vue-context",
+  "name": "@sn8/vue-context-bootstrap",
   "version": "3.4.0",
   "description": "A simple vue context menu component.",
   "main": "dist/vue-context.js",
