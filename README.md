@@ -67,10 +67,8 @@ and also add the context menu to the page.
     </div>
     
     <vue-context ref="menu">
-        <ul>
-            <li @click="onClick($event.target.innerText)">Option 1</li>
-            <li @click="onClick($event.target.innerText)">Option 2</li>
-        </ul>
+        <a class="dropdown-item" @click="onClick($event.target.innerText)">Option 1</a>
+        <a class="dropdown-item" @click="onClick($event.target.innerText)">Option 2</a>
     </vue-context>
     
 </div>
