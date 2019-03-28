@@ -1,15 +1,6 @@
-# vue-context
+# vue-context-bootstrap
 
-[![npm version](https://img.shields.io/npm/v/vue-context.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-context)
-[![npm downloads](https://img.shields.io/npm/dt/vue-context.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-context)
-[![GitHub issues](https://img.shields.io/github/issues/rawilk/vue-context.svg?style=for-the-badge)](https://github.com/rawilk/vue-context/issues)
-[![GitHub stars](https://img.shields.io/github/stars/rawilk/vue-context.svg?style=for-the-badge)](https://github.com/rawilk/vue-context/stargazers)
-[![VueJS version](https://img.shields.io/badge/vue.js-2.x-green.svg?style=for-the-badge)](https://vuejs.org)
-
-A simple yet flexible context menu for Vue. It is styled for the standard `ul` tag,
-but any menu template can be used. The only dependency this package has is Vue,
-so the majority of styling is up to you, and any package styles for the menu
-can easily be overridden.
+A simple yet flexible context menu for Vue. Based on [vue-context](https://rawilk.github.io/vue-context), but it is styled using `dropdown-menu` from Bootstrap 4.x (you need to import Bootstrap CSS in your app).
 
 The menu disappears when you expect by using the `onblur` event and it also
 disappears when clicked on.
