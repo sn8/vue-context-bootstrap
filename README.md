@@ -24,7 +24,7 @@ your project.
 
 Using npm:
 ```bash
-$ npm install vue-context --save
+$ npm install @sn8/vue-context-bootstrap --save
 ```
 
 ## Basic Usage
@@ -34,7 +34,7 @@ for the click event.
 
 ```js
 import Vue from 'vue';
-import { VueContext } from 'vue-context';
+import { VueContext } from '@sn8/vue-context-bootstrap';
 
 new Vue({
     components: {
@@ -109,7 +109,7 @@ can also be used to output dynamic content to the context menu.
 
 ```js
 import Vue from 'vue';
-import { VueContext } from 'vue-context';
+import { VueContext } from '@sn8/vue-context-bootstrap';
 
 new Vue({
     components: {
