@@ -1,3 +1,3 @@
-import VueContext from './vue-context';
+import VueContext from './VueContext.vue';
 
 export { VueContext };
