@@ -13,7 +13,7 @@
 </template>
 
 <script>
-    import ClickOutside from 'vue-click-outside';
+    import { ClickOutside } from '../node_modules/vue-outside-events/src/vue-outside-events';
 
     export default {
         name: 'VueContext',
